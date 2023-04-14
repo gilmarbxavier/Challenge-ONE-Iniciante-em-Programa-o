@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+    <title>Challenge - Codificador de texto</title>
+</head>
+<body>
+
+<header class="header">
+    <img src="logoAlura.png" alt="Logotipo Alura" class="logo">
+    <h1 class="texto_logo"><strong>ORACLE</strong> + <strong>ALURA</strong> </h1>
+</header>
+
+<main class="principal">
+
+    <section class="section_texto">
+        <input placeholder="digite seu texto aqui" id="text" autofocus>
+    </section>
+    
+    <section class="textarea">
+        <textarea id="recebe"></textarea>
+        <div class="div_ilustracao">
+            <img src="boneco.png" alt="ilustracao">
+        </div>
+        <p class="texto1">Nenhuma mensagem encontrada</p>
+
+        <p class="texto2">Digite um texto que você deseja criptografar <br>ou descriptografa</p>
+    </section>
+    
+    
+    <footer>
+        <button id="btn">Criptografar</button>
+        <button id="btn2">Descriptografa</button>
+        <button id="copy">Copiar</button>
+        <input type="submit" value="limpar" id="limpar">
+    </footer>
+
+</main>
+
+
+<script type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
